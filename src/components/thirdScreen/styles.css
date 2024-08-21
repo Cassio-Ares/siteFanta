@@ -1,0 +1,43 @@
+.containerThirdScreen {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.content{
+  width: 85%;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+  margin-top: 12%;
+}
+
+.contentShow{
+ background: #f1e4e4;
+ border-radius: 15px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-end;
+}
+
+.text{
+ color: #333;
+ font-size: 30px;
+ font-weight: bolder;
+ margin-bottom: 10px;
+}
+
+.btn{
+  background: #FF7201;
+  padding: 8px 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+

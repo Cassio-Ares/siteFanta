@@ -1,0 +1,52 @@
+.container_homeView{ 
+    margin-top: 2%; 
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.titleHome{
+    font-size: 370px;
+    text-align: center;
+    margin-top: 6%;
+    letter-spacing: 5px;
+}
+
+.img_fanta{
+   position: fixed;
+   transform: translate(120%, -100%);
+   transition: 'transform 0.1s ease-out';
+   width: 430px;
+   z-index: 1;
+
+} 
+.img_circle{
+    position: fixed;
+    transform: translate(200%, -185%);
+    transition: 'transform 0.1s ease-out';
+    width: 260px;
+}
+
+.img_orange{
+    position: fixed;
+    transform: translate(120%, -60%);
+    transition: 'transform 0.1s ease-out';
+    width: 500px;
+    z-index: 1;
+}
+
+.folha_one{
+    position: fixed;
+    transform: translate(5%, -200%) rotate(60deg);
+    transition: 'transform 0.1s ease-out';
+    width: 230px;
+  
+}
+
+.folha_Two{
+    position: fixed;
+    transform: translate(380%, -60%) rotate(240deg); 
+    transition: 'transform 0.1s ease-out'; 
+    width: 280px;
+}
